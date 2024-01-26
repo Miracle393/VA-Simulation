@@ -1,0 +1,9 @@
+A is a solution of 3.80g/cm3 of HCL. B is a solution containing 1.2g per 250cm3 of XOH.
+Put A into the burette and titrate it against 20 or 25 cm3 portions of B with A using methyl orange as the indicator.
+Record the volume of your pipette. Tabulate your burette readings, and calculate the average volume of acid used from your results and the information provided.
+Calculate:
+a) The concentration of A in mol/dm3
+b) The concentration of B in mol/dm3
+c) Molar mass of XOH.
+d) Relative atomic mass of X.
+e) The mass of HCL in 20cm3 of solution.
