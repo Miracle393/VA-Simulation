@@ -1021,6 +1021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Origin Set Up
       objectReference: {fileID: 0}
+    - target: {fileID: 7873184977108000993, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_CameraYOffset
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1927,6 +1932,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2912374785309441325, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899982747630429064, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 116
+      objectReference: {fileID: 0}
     - target: {fileID: 3906503339124105541, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2032,8 +2047,112 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Menu UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5578337167545906156, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_text
+      value: 'A is a solution of 3.80g/cm3 of HCL. B is a solution containing 1.2g
+        per 250cm3 of XOH.
+
+        Put A into the burette and titrate it against
+        20 or 25 cm3 portions of B with A using methyl orange as the indicator.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_margin.w
+      value: 94.969864
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -284.1223
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_margin.y
+      value: 72.5388
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -248.01935
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2427308795250815149, guid: 5b036e831c0c90547b32a8a896d80f79,
+        type: 2}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692076469725144503, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714221578442700897, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783576014235181421, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783576014235181421, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9034567536513396416, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2427308795250815149, guid: 5b036e831c0c90547b32a8a896d80f79,
+        type: 2}
+    - target: {fileID: 9034567536513396416, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194779465948833022, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 9194779465948833022, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00, type: 3}
