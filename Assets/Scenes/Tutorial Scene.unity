@@ -239,9 +239,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Volumetric Analysis
-
-    Simulation'
+  m_text: How to use contollers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d7a5e2d89139b2940a46b4a7c3289c9e, type: 2}
   m_sharedMaterial: {fileID: -3542977905639664755, guid: d7a5e2d89139b2940a46b4a7c3289c9e,
@@ -978,7 +976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1437689978
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3405,15 +3403,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Menu UI
       objectReference: {fileID: 0}
-    - target: {fileID: 4469795172510698811, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
+    - target: {fileID: 4202877763485082408, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
         type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -10
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5887789151019844298, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6259053059752325425, guid: 4aa0d4816ad2fc6479f7cdf2e24eaf00,
         type: 3}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameStartMenu : MonoBehaviour
@@ -43,7 +44,8 @@ public class GameStartMenu : MonoBehaviour
     public void StartGame()
     {
         HideAll();
-        SceneTransitionManager.singleton.GoToSceneAsync(1);
+        SceneManager.LoadScene("Chemistry_Lab");
+        // SceneTransitionManager.singleton.GoToSceneAsync(1);
     }
 
     public void HideAll()
@@ -61,8 +63,9 @@ public class GameStartMenu : MonoBehaviour
     }
     public void EnableOption()
     {
+        SceneManager.LoadScene("Tutorial Scene");
         mainMenu.SetActive(false);
-        options.SetActive(true);
+        //options.SetActive(true);
         about.SetActive(false);
     }
     public void EnableAbout()
