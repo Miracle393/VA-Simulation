@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1958,7 +1958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7298f93c8d79f75479061141bed6d719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fluidMaterial: {fileID: 2100000, guid: 66bdb14888c97ff42b2c94c2f6e8ab87, type: 2}
+  meshRenderer: {fileID: 0}
 --- !u!1 &1055624568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6125440373231988269, guid: e2b68f2c41a185742a931a6a84cb2283,
@@ -5270,6 +5270,11 @@ PrefabInstance:
     - target: {fileID: -3451741908035677704, guid: e2b68f2c41a185742a931a6a84cb2283,
         type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2776561625544324674, guid: e2b68f2c41a185742a931a6a84cb2283,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2776561625544324674, guid: e2b68f2c41a185742a931a6a84cb2283,
