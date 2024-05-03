@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1958,7 +1958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7298f93c8d79f75479061141bed6d719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meshRenderer: {fileID: 0}
+  meshRenderer1: {fileID: 0}
+  meshRenderer2: {fileID: 0}
 --- !u!1 &1055624568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6125440373231988269, guid: e2b68f2c41a185742a931a6a84cb2283,
@@ -4133,17 +4134,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.70395243
+      value: 0.7039525
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.70395243
+      value: 0.7039525
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.70395243
+      value: 0.7039524
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
@@ -4153,12 +4154,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0001
+      value: -0.000099999364
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0683
+      value: -0.068300016
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
@@ -4168,17 +4169,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3a67ac3aa6417a4896c60350f399967,
         type: 3}
@@ -4213,6 +4214,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1392119345}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f3a67ac3aa6417a4896c60350f399967,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1392119346}
   m_SourcePrefab: {fileID: 100100000, guid: f3a67ac3aa6417a4896c60350f399967, type: 3}
 --- !u!4 &1392119343 stripped
 Transform:
@@ -4241,6 +4246,20 @@ MonoBehaviour:
   MaxWobble: 0.03
   WobbleSpeed: 1
   Recovery: 1
+--- !u!114 &1392119346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392119344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7298f93c8d79f75479061141bed6d719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer1: {fileID: 0}
+  meshRenderer2: {fileID: 0}
 --- !u!1 &1404212870
 GameObject:
   m_ObjectHideFlags: 0

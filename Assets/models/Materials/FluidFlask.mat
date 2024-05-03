@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FluidFlask
-  m_Shader: {fileID: -6465566751694194690, guid: e298606ec2832bd419518904edc1d9cd,
+  m_Shader: {fileID: -6465566751694194690, guid: 19362b361b202cf4aa94d8a1df83d05b,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -96,7 +96,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Fill: 0.53
+    - _Fill: 0.31
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
