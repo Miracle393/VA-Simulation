@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class FluidFill : MonoBehaviour
 {
-    public MeshRenderer meshRenderer1;
+    public MeshRenderer meshRenderer;
     public MeshRenderer meshRenderer2;
 
     //public Material fluidMaterial;
 
     void Start()
     {
-        meshRenderer1 = GetComponent<MeshRenderer>();
+        meshRenderer = GetComponent<MeshRenderer>();
         meshRenderer2 = GetComponent<MeshRenderer>();
 
 
@@ -19,8 +19,6 @@ public class FluidFill : MonoBehaviour
 
     public void ReduceFluid()
     {
-        Debug.Log("Test Button");
-        meshRenderer1.material.SetFloat("_Fill", 0.7f);
-        meshRenderer2.material.SetFloat("_Fill", 0.5f);
+        meshRenderer.material.SetFloat("_Fill", 0.7f);
     }
 }
