@@ -5,6 +5,7 @@ using UnityEngine;
 public class EmptyConicalFlask : MonoBehaviour
 {
     public MeshRenderer meshRendererCf;
+    public GameObject TitrationFluid;
    
 
     // Start is called before the first frame update
@@ -15,11 +16,13 @@ public class EmptyConicalFlask : MonoBehaviour
 
    public void PourOut()
     {
-        meshRendererCf.material.SetFloat("_Fill", 0.2f);
+       // meshRendererCf.material.SetFloat("_Fill", 0.2f);
+
+       TitrationFluid.SetActive(false);
     }
 
-    public void BackWhiteColor()
+    /*public void BackWhiteColor()
     {
         meshRendererCf.material.SetColor("_SideColor", Color.white);
-    }
+    }*/
 }

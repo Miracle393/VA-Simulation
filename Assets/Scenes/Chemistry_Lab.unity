@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3229,7 +3229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRendererSb: {fileID: 958636454}
-  TitrationFluid: {fileID: 0}
+  TitrationFluid: {fileID: 1587016893}
 --- !u!1 &1024749413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1288042190280490747, guid: e2b68f2c41a185742a931a6a84cb2283,
@@ -4971,21 +4971,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1392119350}
+      - m_Target: {fileID: 1587016897}
         m_TargetAssemblyTypeName: EmptyConicalFlask, Assembly-CSharp
         m_MethodName: PourOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1392119350}
-        m_TargetAssemblyTypeName: EmptyConicalFlask, Assembly-CSharp
-        m_MethodName: BackWhiteColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6604,6 +6592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRendererCf: {fileID: 1392119346}
   meshRendererBt: {fileID: 2039517453}
+  NewColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1392119349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6618,7 +6607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRendererCf: {fileID: 1392119346}
   TitrationFluid: {fileID: 0}
-  hexColor: '#FFA500FF'
+  IndicatorColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1392119350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6632,6 +6621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRendererCf: {fileID: 1392119346}
+  TitrationFluid: {fileID: 0}
 --- !u!1 &1404212870
 GameObject:
   m_ObjectHideFlags: 0
@@ -7893,7 +7883,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a6e14b2e50d84f943b9aab91c7287f58,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7907,6 +7897,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1587016896}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6e14b2e50d84f943b9aab91c7287f58,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1587016898}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6e14b2e50d84f943b9aab91c7287f58,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1587016897}
   m_SourcePrefab: {fileID: 100100000, guid: a6e14b2e50d84f943b9aab91c7287f58, type: 3}
 --- !u!4 &1587016892 stripped
 Transform:
@@ -7954,7 +7952,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRendererCf: {fileID: 1587016895}
   TitrationFluid: {fileID: 1587016893}
-  hexColor: '#FFA500FF'
+  IndicatorColor: {r: 1, g: 0.48235294, b: 0, a: 0}
+--- !u!114 &1587016897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587016893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6f948e6299f1d40aa68b55a76f1f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRendererCf: {fileID: 1587016895}
+  TitrationFluid: {fileID: 1587016893}
+--- !u!114 &1587016898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587016893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a99a5cca7f5b428d803dfa3e8ceda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRendererCf: {fileID: 1587016895}
+  meshRendererBt: {fileID: 2039517453}
+  NewColor: {r: 0.7169812, g: 0.28746888, b: 0.4229418, a: 0}
 --- !u!1 &1615613132 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2407111834349327129, guid: e2b68f2c41a185742a931a6a84cb2283,
@@ -8823,19 +8850,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1392119348}
-        m_TargetAssemblyTypeName: TitrateControl, Assembly-CSharp
-        m_MethodName: AcidIn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1392119348}
+      - m_Target: {fileID: 1587016898}
         m_TargetAssemblyTypeName: TitrateControl, Assembly-CSharp
         m_MethodName: TitrationColorChange
         m_Mode: 1
@@ -9232,8 +9247,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835a99a5cca7f5b428d803dfa3e8ceda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meshRendererCf: {fileID: 1392119346}
+  meshRendererCf: {fileID: 1587016895}
   meshRendererBt: {fileID: 2039517453}
+  NewColor: {r: 0.7176471, g: 0.28627452, b: 0.42352942, a: 0}
 --- !u!1 &2044541059
 GameObject:
   m_ObjectHideFlags: 0
@@ -9317,7 +9333,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1392119349}
+      - m_Target: {fileID: 1587016896}
         m_TargetAssemblyTypeName: AddIndicatorCf, Assembly-CSharp
         m_MethodName: IndicatorColorChange
         m_Mode: 1

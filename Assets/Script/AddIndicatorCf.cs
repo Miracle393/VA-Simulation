@@ -6,7 +6,8 @@ public class AddIndicatorCf : MonoBehaviour
 {
     public MeshRenderer meshRendererCf;
     public GameObject TitrationFluid;
-    public string hexColor = "#FFA500FF"; // Example: Orange color with full opacity
+    //public string hexColor = "#FFA500FF"; // Example: Orange color with full opacity
+    public Color IndicatorColor;
 
 
     // Start is called before the first frame update
@@ -17,9 +18,12 @@ public class AddIndicatorCf : MonoBehaviour
 
     public void IndicatorColorChange()
     {
-        Color newColor;
-        ColorUtility.TryParseHtmlString(hexColor, out newColor); // Parse without checking result
-        meshRendererCf.material.color = newColor; // Directly set the color
+        /* Color newColor;
+         ColorUtility.TryParseHtmlString(hexColor, out newColor); // Parse without checking result
+         meshRendererCf.material.color = newColor; // Directly set the color*/
+
+        meshRendererCf.material.color = IndicatorColor;
+
 
 
         //meshRendererCf.material.SetColor("_SideColor", new Color(1.0f, 0.65f, 0.0f, 1.0f)); //Orange color

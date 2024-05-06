@@ -6,6 +6,7 @@ public class TitrateControl : MonoBehaviour
 {
     public MeshRenderer meshRendererCf;
     public MeshRenderer meshRendererBt;
+    public Color NewColor;
 
     // Start is called before the first frame update
     void Start()
@@ -19,14 +20,14 @@ public class TitrateControl : MonoBehaviour
         meshRendererBt.material.SetFloat("_Fill", 0.32f);
     }
 
-    public void AcidIn()
+   /* public void AcidIn()
     {
         meshRendererCf.material.SetFloat("_Fill", 0.31f);
-    }
+    }*/
 
     public void TitrationColorChange()
     {
-        meshRendererCf.material.SetColor("_SideColor", Color.magenta);
+        meshRendererCf.material.color = NewColor;
 
     }
 }
