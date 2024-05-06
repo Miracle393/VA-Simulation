@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class AddBaseCf : MonoBehaviour
 {
-    public MeshRenderer meshRendererCf;
+   // public MeshRenderer meshRendererCf;
     public MeshRenderer meshRendererSb;
+    public GameObject TitrationFluid;
 
     // Start is called before the first frame update
     void Start()
     {
-        meshRendererCf = GetComponent<MeshRenderer>();
+       // meshRendererCf = GetComponent<MeshRenderer>();
         meshRendererSb = GetComponent<MeshRenderer>();
     }
 
     public void BaseIn()
     {
        //to add XOH base into the conical flask, increase volume in conical flask
-        meshRendererCf.material.SetFloat("_Fill", 0.303f);
+       // meshRendererCf.material.SetFloat("_Fill", 0.303f);
+       TitrationFluid.SetActive(true);
 
         
     }
