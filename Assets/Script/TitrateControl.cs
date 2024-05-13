@@ -17,7 +17,7 @@ public class TitrateControl : MonoBehaviour
 
    public void AcidOut()
     {
-        meshRendererBt.material.SetFloat("_Fill", 0.32f);
+        meshRendererBt.material.SetFloat("_Fill", 0.185f);
     }
 
    /* public void AcidIn()
@@ -25,6 +25,15 @@ public class TitrateControl : MonoBehaviour
         meshRendererCf.material.SetFloat("_Fill", 0.31f);
     }*/
 
+    public void AcidTwoOut()
+    {
+        meshRendererBt.material.SetFloat("_Fill", 0.187f);
+    }
+
+    public void AcidThreeOut()
+    {
+        meshRendererBt.material.SetFloat("_Fill", 0.187f);
+    }
     public void TitrationColorChange()
     {
         meshRendererCf.material.color = NewColor;
