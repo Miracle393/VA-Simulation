@@ -34,6 +34,11 @@ public class TitrateControl : MonoBehaviour
     {
         meshRendererBt.material.SetFloat("_Fill", 0.187f);
     }
+
+    public void RefillBurette()
+    {
+        meshRendererBt.material.SetFloat("_Fill", 0.52f);
+    }
     public void TitrationColorChange()
     {
         meshRendererCf.material.color = NewColor;

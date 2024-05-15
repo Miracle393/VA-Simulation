@@ -11,8 +11,6 @@ public class NextPage : MonoBehaviour
     public GameObject TitrationControl;
     public GameObject EmptyConicalFlask;
     public GameObject RefillBurette;
-    public GameObject TitrationControlII;
-    public GameObject TitrationControlIII;
     public GameObject HeadOut;
     public GameObject paper2Remind;
     public GameObject ResultTable;
@@ -64,16 +62,10 @@ public class NextPage : MonoBehaviour
         RefillBurette.SetActive(true);
     }
 
-    public void ToTitrationControlII()
+    public void RepeatTitrate()
     {
         RefillBurette.SetActive(false);
-        TitrationControlII.SetActive(true);
-    }
-
-    public void ToTitrationControlIII()
-    {
-        RefillBurette.SetActive(false);
-        TitrationControlIII.SetActive(true);
+        AddBase.SetActive(true);
     }
 
     public void ToHeadOut()
