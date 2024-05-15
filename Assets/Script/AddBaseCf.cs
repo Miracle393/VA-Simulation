@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class AddBaseCf : MonoBehaviour
 {
-   // public MeshRenderer meshRendererCf;
+    public MeshRenderer meshRendererCf;
     public MeshRenderer meshRendererSb;
     public GameObject TitrationFluid;
+    public Color AgainColor;
 
     // Start is called before the first frame update
     void Start()
@@ -28,5 +29,11 @@ public class AddBaseCf : MonoBehaviour
         //to decrease the fluid in Soln B 
         meshRendererSb.material.SetFloat("_Fill", 0.535f);
     }
-  
+
+    public void ToWhiteColor()
+    {
+        meshRendererCf.material.color = AgainColor;
+
+    }
+
 }

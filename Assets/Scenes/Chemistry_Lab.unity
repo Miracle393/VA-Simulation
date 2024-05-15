@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3690,7 +3690,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1587016894}
+      - m_Target: {fileID: 1587016899}
         m_TargetAssemblyTypeName: AddBaseCf, Assembly-CSharp
         m_MethodName: BaseIn
         m_Mode: 1
@@ -6764,7 +6764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &695568517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6852,7 +6852,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &695568522
 Canvas:
   m_ObjectHideFlags: 0
@@ -8164,8 +8164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb2a2dc0b1933b498a013b1b188322a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshRendererCf: {fileID: 0}
   meshRendererSb: {fileID: 958636454}
   TitrationFluid: {fileID: 1587016893}
+  AgainColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &962918002
 GameObject:
   m_ObjectHideFlags: 0
@@ -10355,7 +10357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Titrate
+  m_text: 1st Titration
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88136368a0c4e46b99730b91552f2426, type: 2}
   m_sharedMaterial: {fileID: -5235695321455125149, guid: 88136368a0c4e46b99730b91552f2426,
@@ -11829,6 +11831,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1587016899}
+        m_TargetAssemblyTypeName: AddBaseCf, Assembly-CSharp
+        m_MethodName: ToWhiteColor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1587016897}
         m_TargetAssemblyTypeName: EmptyConicalFlask, Assembly-CSharp
         m_MethodName: PourOut
@@ -13198,7 +13212,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1587016898}
+      - m_Target: {fileID: 2039517454}
         m_TargetAssemblyTypeName: TitrateControl, Assembly-CSharp
         m_MethodName: RefillBurette
         m_Mode: 1
@@ -14090,7 +14104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1384041660
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14178,7 +14192,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1384041665
 Canvas:
   m_ObjectHideFlags: 0
@@ -14366,8 +14380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb2a2dc0b1933b498a013b1b188322a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshRendererCf: {fileID: 0}
   meshRendererSb: {fileID: 958636454}
   TitrationFluid: {fileID: 0}
+  AgainColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1392119348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15487,7 +15503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 153.7, y: 14}
+  m_AnchoredPosition: {x: 153, y: 18.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1454796876
@@ -17321,10 +17337,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6e14b2e50d84f943b9aab91c7287f58,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1587016894}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6e14b2e50d84f943b9aab91c7287f58,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1587016896}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6e14b2e50d84f943b9aab91c7287f58,
         type: 3}
@@ -17334,6 +17346,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1587016897}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6e14b2e50d84f943b9aab91c7287f58,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1587016899}
   m_SourcePrefab: {fileID: 100100000, guid: a6e14b2e50d84f943b9aab91c7287f58, type: 3}
 --- !u!4 &1587016892 stripped
 Transform:
@@ -17347,20 +17363,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1587016891}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1587016894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587016893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb2a2dc0b1933b498a013b1b188322a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshRendererSb: {fileID: 958636454}
-  TitrationFluid: {fileID: 1587016893}
 --- !u!23 &1587016895 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: a6e14b2e50d84f943b9aab91c7287f58,
@@ -17411,6 +17413,22 @@ MonoBehaviour:
   meshRendererCf: {fileID: 1587016895}
   meshRendererBt: {fileID: 2039517453}
   NewColor: {r: 0.7169812, g: 0.28746888, b: 0.4229418, a: 0}
+--- !u!114 &1587016899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587016893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb2a2dc0b1933b498a013b1b188322a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRendererCf: {fileID: 1587016895}
+  meshRendererSb: {fileID: 958636454}
+  TitrationFluid: {fileID: 1587016893}
+  AgainColor: {r: 1, g: 1, b: 1, a: 0}
 --- !u!1 &1599840519
 GameObject:
   m_ObjectHideFlags: 0
@@ -19828,7 +19846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: 14}
+  m_AnchoredPosition: {x: -17, y: -42.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889483052
@@ -19875,7 +19893,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2039517454}
+      - m_Target: {fileID: 1587016898}
         m_TargetAssemblyTypeName: TitrateControl, Assembly-CSharp
         m_MethodName: AcidTwoOut
         m_Mode: 1
@@ -20128,7 +20146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -181.3, y: 17}
+  m_AnchoredPosition: {x: -184.7, y: 17}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2020712285
@@ -20905,24 +20923,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e147aa025ab6c9046bb9203b7c62dc1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paper1: {fileID: 0}
-  paper2: {fileID: 0}
-  AddBase: {fileID: 0}
-  AddIndicator: {fileID: 0}
-  TitrationControl: {fileID: 0}
-  EmptyConicalFlask: {fileID: 0}
-  RefillBurette: {fileID: 0}
-  HeadOut: {fileID: 0}
-  paper2Remind: {fileID: 0}
-  ResultTable: {fileID: 0}
-  CalculateConvert: {fileID: 0}
-  CalculateConcentrationA: {fileID: 0}
-  CalculateConcentrationBI: {fileID: 0}
-  CalculateConcentrationBII: {fileID: 0}
-  MoleHcl: {fileID: 0}
-  MoleNaOH: {fileID: 0}
-  MolesHydrogen: {fileID: 0}
-  Finish: {fileID: 0}
+  paper1: {fileID: 1384041659}
+  paper2: {fileID: 2045753899}
+  AddBase: {fileID: 1794720035}
+  AddIndicator: {fileID: 486424758}
+  TitrationControl: {fileID: 1404212870}
+  EmptyConicalFlask: {fileID: 669188948}
+  RefillBurette: {fileID: 1087845614}
+  HeadOut: {fileID: 155662378}
+  paper2Remind: {fileID: 2124491597}
+  ResultTable: {fileID: 1623921064}
+  CalculateConvert: {fileID: 1466849763}
+  CalculateConcentrationA: {fileID: 1868579674}
+  CalculateConcentrationBI: {fileID: 233913153}
+  CalculateConcentrationBII: {fileID: 1544266034}
+  MoleHcl: {fileID: 638525676}
+  MoleNaOH: {fileID: 2074456058}
+  MolesHydrogen: {fileID: 291365171}
+  Finish: {fileID: 695568516}
 --- !u!114 &2056299229
 MonoBehaviour:
   m_ObjectHideFlags: 0
