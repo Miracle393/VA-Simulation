@@ -10,15 +10,26 @@ public class BackPage : MonoBehaviour
     public GameObject AddIndicator;
     public GameObject TitrationControl;
     public GameObject EmptyConicalFlask;
+    public GameObject RefillBurette;
+    public GameObject TitrationControlII;
+    public GameObject TitrationControlIII;
+    public GameObject HeadOut;
+    public GameObject paper2Remind;
+    public GameObject ResultTable;
+    public GameObject CalculateConvert;
+    public GameObject CalculateConcentrationA;
+    public GameObject CalculateConcentrationBI;
+    public GameObject CalculateConcentrationBII;
+    public GameObject MoleHcl;
+    public GameObject MoleNaOH;
+    public GameObject MolesHydrogen;
+    public GameObject Finish;
     //public Button NextButton;
     //public Button BackButton;
 
-    public void BackToPaper1()
-    {
-        paper1.SetActive(true);
-        paper2.SetActive(false);
-    }
+   
 
+   //public void BackTo Emp
     public void BackToTitrationControl()
     {
         TitrationControl.SetActive(true);
@@ -41,5 +52,11 @@ public class BackPage : MonoBehaviour
     {
         paper2.SetActive(true);
         AddBase.SetActive(false);
+    }
+
+    public void BackToPaper1()
+    {
+        paper1.SetActive(true);
+        paper2.SetActive(false);
     }
 }
