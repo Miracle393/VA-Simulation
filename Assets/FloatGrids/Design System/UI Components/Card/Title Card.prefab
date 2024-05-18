@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4265167049814201939}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -106,7 +105,6 @@ RectTransform:
   m_Children:
   - {fileID: 4265167048839156662}
   m_Father: {fileID: 7986877376879588581}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -199,7 +197,6 @@ RectTransform:
   - {fileID: 5444138681307162566}
   - {fileID: 5444138680619356561}
   m_Father: {fileID: 7986877376879588581}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -315,7 +312,6 @@ RectTransform:
   m_Children:
   - {fileID: 393717559975294776}
   m_Father: {fileID: 5326900908741970642}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -379,7 +375,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5326900908741970642}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -517,7 +512,6 @@ RectTransform:
   - {fileID: 4265167049814201939}
   - {fileID: 5326900908741970642}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -599,6 +593,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5444138680619356561}
     m_Modifications:
     - target: {fileID: 4169184802599514971, guid: fb08470e5e8854b46b43c2e973802470,
@@ -783,6 +778,9 @@ PrefabInstance:
       value: Ghost Medium Icon Button
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb08470e5e8854b46b43c2e973802470, type: 3}
 --- !u!224 &393717559975294776 stripped
 RectTransform:
