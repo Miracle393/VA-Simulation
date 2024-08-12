@@ -916,11 +916,11 @@ PlayerSettings:
   apiCompatibilityLevel: 3
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 04ca8894-c8a4-49da-a33d-4aaa0fb92374
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: VA-Simulation
+  organizationId: miracle393
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
